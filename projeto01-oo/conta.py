@@ -6,3 +6,6 @@ class Conta:
         self.titular = titular
         self.saldo = saldo
         self.limite = limite
+
+    def extrato(self):
+        print('O {} tem saldo de {}'.format(self.titular, self.saldo))

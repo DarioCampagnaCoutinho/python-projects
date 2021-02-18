@@ -10,5 +10,8 @@ class Conta:
     def extrato(self):
         print('O {} tem saldo de {}'.format(self.titular, self.saldo))
 
+    def deposita(self, valor):
+        self.saldo += valor
+
     def saca(self, valor):
         self.saldo -= valor

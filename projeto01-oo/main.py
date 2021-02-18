@@ -10,4 +10,6 @@ print(conta1.extrato())
 
 print(conta1.saca(200))
 
+print(conta1.deposita(200))
+
 print(conta1.extrato())

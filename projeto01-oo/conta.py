@@ -9,3 +9,6 @@ class Conta:
 
     def extrato(self):
         print('O {} tem saldo de {}'.format(self.titular, self.saldo))
+
+    def saca(self, valor):
+        self.saldo -= valor
